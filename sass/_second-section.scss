@@ -1,0 +1,126 @@
+.second-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    gap: 30px;
+    width: 375px;
+    height: 352px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.second-section__border {
+    width: 315px;
+    height: 315px;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 0 auto
+}
+
+.second-section__idea {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.second-section__for-idea {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.right-for-middle {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .second-section {
+        width: 768px;
+        height: 251px;
+        margin-bottom: 60px;
+    }
+    .second-section__border {
+        width: 708px;
+        height: 315px;
+        background: rgba(255, 255, 255, 0.3);
+        margin-bottom: 28px;
+    }
+    .second-section__idea {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .second-section__for-idea {
+        font-size: 19px;
+        line-height: 30px;
+        width: 648px;
+    }
+    .right-for-middle {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .second-section {
+        display: none;
+    }
+    .center-for-middle {
+        display: block;
+        width: 4px;
+        height: 303px;
+        background: rgba(255, 255, 255, 0.3);
+    }
+    .right-for-middle {
+        display: block;
+    }
+    .toogether-live {
+        display: grid;
+        grid-template-columns: 375px 4px 405px;
+        width: 904px;
+        gap: 60px;
+        margin-left: 15px;
+        height: 304px;
+    }
+    .right-for-middle__for-idea-rigt {
+        width: 405px;
+        font-size: 19px;
+        line-height: 30px;
+        color: #FFFFFF;
+        font-weight: 400;
+    }
+    .right-for-middle__idea {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 37px;
+        color: #FFFFFF;
+    }
+    .right-for-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .second-section__border {
+        display: none;
+    }
+    .second-section__idea {
+        display: none;
+    }
+    .second-section__for-idea {
+        display: none;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .toogether-live {
+        margin-left: 121px;
+        grid-template-columns: 375px 4px 581px;
+    }
+    .right-for-middle {
+        height: 217px;
+        align-items: flex-start;
+        align-self: center;
+        gap: 10px;
+    }
+    .right-for-middle__for-idea-rigt {
+        width: 581px;
+    }
+}

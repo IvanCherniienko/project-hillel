@@ -1,0 +1,102 @@
+.trane__caption {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    color: transparent;
+    background-clip: text;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.trane-ab__team {
+    background-image: url(../img/team-mini.jpg);
+    width: 375px;
+    height: 114px;
+    margin: 30px 0 30px;
+    background-repeat: no-repeat;
+}
+
+.trane-ab__text {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.text--first {
+    padding-bottom: 20px;
+}
+
+.text--second {
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .trane-ab__team {
+        background-image: url(../img/team-after-mini.jpg);
+        width: 100%;
+        height: 233px;
+        margin: 60px 0 60px;
+    }
+    .text--first,
+    .text--second,
+    .text--third {
+        width: 648px;
+    }
+    .trane__caption {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 46px;
+        width: 648px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .trane-ab__team {
+        background-image: url(../img/team-prelast-mini.jpg);
+        width: 100%;
+        height: 311px;
+        margin-top: 41px;
+    }
+    .text--first,
+    .text--second,
+    .text--third {
+        width: 482px;
+    }
+    .trane__caption {
+        height: 138px;
+        width: 362px;
+        margin: 0px;
+    }
+    .trane-ab__rz {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 60px;
+        margin-bottom: 60px;
+        margin-left: 27px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .trane-ab__team {
+        background-image: url(../img/team-last-mini.jpg);
+        width: 1440px;
+        height: 438px;
+        margin: auto;
+    }
+    .text--first,
+    .text--second,
+    .text--third {
+        width: 658px;
+    }
+    .trane__caption {
+        width: 362px;
+    }
+    .trane-ab__par {
+        margin-left: 90px;
+    }
+    .trane-ab-center {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
